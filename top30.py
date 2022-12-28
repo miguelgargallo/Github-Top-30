@@ -29,4 +29,4 @@ with open("top100.md", "w") as f:
         # Write the repository name and number of stars to the file
         f.write(f"{i+1}. [{repo['name']}]({repo['html_url']}) - {repo['stargazers_count']} stars\n")
 
-print("Top 30 most starred projects written to top100.md")
+print("Top 30 most starred projects written to top30.md")
