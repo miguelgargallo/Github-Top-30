@@ -1,5 +1,7 @@
 # GitHub Top 30 (2022)
 
+<img width="640" alt="2022-12-28-01-51-12-GitHub Top-30 by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209740989-8a32dafa-0c92-4e07-b567-99832539a9ef.png">
+
 ## Index
 
 Introduction
@@ -95,3 +97,7 @@ The tool is written in Python. The requests module is used to send the GET reque
 ## Explanation of the file format used to write the results
 
 The results are written to a file called top30.md in Markdown format using the f string format. The file is opened for writing using the with open('top30.md', 'w') as f: syntax. The f string format is used to write the results to the file. The results are written in the following format:
+
+<img width="640" alt="2022-12-28-01-50-52-GitHub Top-30 by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209740995-9211597f-f74b-4591-ac30-e6eea32be431.png">
+
+2022 (c) All Rights Reserved. Pylar AI creative ML License.
