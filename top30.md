@@ -1,0 +1,32 @@
+# Top 30 Most Starred Projects on GitHub
+
+1. [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - 358662 stars
+2. [996.ICU](https://github.com/996icu/996.ICU) - 264668 stars
+3. [free-programming-books](https://github.com/EbookFoundation/free-programming-books) - 259356 stars
+4. [coding-interview-university](https://github.com/jwasham/coding-interview-university) - 241856 stars
+5. [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) - 222602 stars
+6. [public-apis](https://github.com/public-apis/public-apis) - 222065 stars
+7. [system-design-primer](https://github.com/donnemartin/system-design-primer) - 206584 stars
+8. [vue](https://github.com/vuejs/vue) - 201444 stars
+9. [react](https://github.com/facebook/react) - 199667 stars
+10. [tensorflow](https://github.com/tensorflow/tensorflow) - 169976 stars
+11. [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - 162690 stars
+12. [bootstrap](https://github.com/twbs/bootstrap) - 160992 stars
+13. [CS-Notes](https://github.com/CyC2018/CS-Notes) - 160121 stars
+14. [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) - 157722 stars
+15. [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 153656 stars
+16. [awesome-python](https://github.com/vinta/awesome-python) - 150945 stars
+17. [Python](https://github.com/TheAlgorithms/Python) - 150379 stars
+18. [flutter](https://github.com/flutter/flutter) - 147808 stars
+19. [linux](https://github.com/torvalds/linux) - 143595 stars
+20. [gitignore](https://github.com/github/gitignore) - 142179 stars
+21. [vscode](https://github.com/microsoft/vscode) - 140758 stars
+22. [javascript](https://github.com/airbnb/javascript) - 129994 stars
+23. [computer-science](https://github.com/ossu/computer-science) - 129831 stars
+24. [Python-100-Days](https://github.com/jackfrued/Python-100-Days) - 129059 stars
+25. [the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) - 123274 stars
+26. [youtube-dl](https://github.com/ytdl-org/youtube-dl) - 116051 stars
+27. [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 113185 stars
+28. [fucking-algorithm](https://github.com/labuladong/fucking-algorithm) - 112834 stars
+29. [go](https://github.com/golang/go) - 107096 stars
+30. [react-native](https://github.com/facebook/react-native) - 106680 stars
