@@ -1,4 +1,4 @@
-# GitHub Top 30 (2022)
+# GitHub Top 30
 
 <img width="640" alt="2022-12-28-01-51-12-GitHub Top-30 by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209740989-8a32dafa-0c92-4e07-b567-99832539a9ef.png">
 
