@@ -104,4 +104,4 @@ The results are written to a file called top30.md in Markdown format using the f
 
 - [This thumbnail was made by miguelgargallo's project: YouTube Thumbnail Maker](https://github.com/miguelgargallo/Youtube-Thumbnail-Maker)
 
-2022 (c) All Rights Reserved. Pylar AI creative ML License.
+2022 © All rights reserved. Pylar creative ML License. Pencil Works LLC.
