@@ -10,6 +10,7 @@ Introduction
 
 - [GitHub Top 30](#github-top-30)
   - [Index](#index)
+  - [Example](#example)
 - [GitHub Top 30 Project Finder](#github-top-30-project-finder)
   - [Overview of the project](#overview-of-the-project)
   - [Purpose of the tool](#purpose-of-the-tool)
