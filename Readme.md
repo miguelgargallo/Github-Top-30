@@ -7,7 +7,7 @@ Introduction
     [Purpose of the tool](#purpose-of-the-tool)
 
 How the Tool Works
-
+    
         [Description of how the tool finds the top 30 most starred projects](#description-of-how-the-tool-finds-the-top-30-most-starred-projects)
         [Explanation of how the results are written to a file](#explanation-of-how-the-results-are-written-to-a-file)
 
@@ -28,8 +28,8 @@ Additional Information
     [Description of the programming language and modules used in the tool](#description-of-the-programming-language-and-modules-used-in-the-tool)
     [Explanation of the file format used to write the results](#explanation-of-the-file-format-used-to-write-the-results)
 
-# GitHub Top 30 Project Finder
 
+# GitHub Top 30 Project Finder
 ## Overview of the project
 
 Welcome to the GitHub Top 30 Project Finder! This project provides a tool for finding the top 30 most starred projects on GitHub.
@@ -53,6 +53,7 @@ The requests.get function sends the request and stores the response in a variabl
 The results are written to a file called top30.md in Markdown format using the f string format. The file is opened for writing using the with open('top30.md', 'w') as f: syntax. The f string format is used to write the results to the file. The results are written in the following format:
 
 ## How to Use the Tool
+
 
 ### Make sure you have Python and pip installed
 
