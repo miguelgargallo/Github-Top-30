@@ -2,7 +2,7 @@
 
 <img width="640" alt="2022-12-28-01-51-12-GitHub Top-30 by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209740989-8a32dafa-0c92-4e07-b567-99832539a9ef.png">
 *This thumbnail was made by miguelgargallo's project:
-[YouTube Thumbnail Maker](https://github.com/miguelgargallo/Youtube-Thumbnail-Maker)
+- [YouTube Thumbnail Maker](https://github.com/miguelgargallo/Youtube-Thumbnail-Maker)
 
 ## Index
 
@@ -102,6 +102,6 @@ The results are written to a file called top30.md in Markdown format using the f
 
 <img width="640" alt="2022-12-28-01-50-52-GitHub Top-30 by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209740995-9211597f-f74b-4591-ac30-e6eea32be431.png">
 *This thumbnail was made by miguelgargallo's project:
-[YouTube Thumbnail Maker](https://github.com/miguelgargallo/Youtube-Thumbnail-Maker)
+- [YouTube Thumbnail Maker](https://github.com/miguelgargallo/Youtube-Thumbnail-Maker)
 
 2022 (c) All Rights Reserved. Pylar AI creative ML License.
