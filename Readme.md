@@ -3,7 +3,7 @@
 Index
 Introduction
 
-    [Overview of the project](#overview-of-the-project)
+    (Overview of the project)[#overview-of-the-project]
     [Purpose of the tool](#purpose-of-the-tool)
 
 How the Tool Works
