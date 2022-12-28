@@ -25,7 +25,7 @@ Introduction
     - [pip documentation](#pip-documentation)
   - [Description of the programming language and modules used in the tool](#description-of-the-programming-language-and-modules-used-in-the-tool)
   - [Explanation of the file format used to write the results](#explanation-of-the-file-format-used-to-write-the-results)
-- [Top 30 Most Starred Projects on GitHub](#top-30-most-starred-projects-on-github)
+- [Example](#example)
 
 # GitHub Top 30 Project Finder
 
@@ -103,7 +103,7 @@ The results are written to a file called top30.md in Markdown format using the f
 
 <img width="640" alt="2022-12-28-01-50-52-GitHub Top-30 by-miguelgargallo" src="https://user-images.githubusercontent.com/5947268/209740995-9211597f-f74b-4591-ac30-e6eea32be431.png">
 
-# Top 30 Most Starred Projects on GitHub
+# Example
 
 1. [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - 358662 stars
 2. [996.ICU](https://github.com/996icu/996.ICU) - 264668 stars
