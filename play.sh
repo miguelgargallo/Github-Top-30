@@ -1,8 +1,8 @@
 #!/bin/bash
 
-chmod +x top100.py
 chmod +x play.sh
+chmod +x top30.py
 
 pip install requests
 
-python ./top100.py
+python ./top30.py

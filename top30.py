@@ -21,9 +21,12 @@ with open("top100.md", "w") as f:
 
     # Iterate through the first 100 items in the data
     for i in range(100):
+        # Check if the list has fewer than 100 items
+        if i >= len(data["items"]):
+            break
         # Get the current repository information
         repo = data["items"][i]
         # Write the repository name and number of stars to the file
         f.write(f"{i+1}. [{repo['name']}]({repo['html_url']}) - {repo['stargazers_count']} stars\n")
 
-print("Top 100 most starred projects written to top100.md")
+print("Top 30 most starred projects written to top100.md")
