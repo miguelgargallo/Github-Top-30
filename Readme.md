@@ -1,30 +1,22 @@
 # GitHub Top 30 (2022)
 
-Index
+## Index
+
 Introduction
-
-    (Overview of the project)[#overview-of-the-project]
+    [Overview of the project](#overview-of-the-project)
     [Purpose of the tool](#purpose-of-the-tool)
-
 How the Tool Works
-    
         [Description of how the tool finds the top 30 most starred projects](#description-of-how-the-tool-finds-the-top-30-most-starred-projects)
         [Explanation of how the results are written to a file](#explanation-of-how-the-results-are-written-to-a-file)
-
 How to Use the Tool
-
     [Clone or download the project to your local machine](#clone-or-download-the-project-to-your-local-machine)
     [Make sure you have Python and pip installed](#make-sure-you-have-python-and-pip-installed)
     [Run the play.sh script to install dependencies and run the tool](#run-the-play.sh-script-to-install-dependencies-and-run-the-tool)
-
 Resources
-
     [GitHub API documentation](#github-api-documentation)
     [Python documentation](#python-documentation)
     [pip documentation](#pip-documentation)
-
 Additional Information
-
     [Description of the programming language and modules used in the tool](#description-of-the-programming-language-and-modules-used-in-the-tool)
     [Explanation of the file format used to write the results](#explanation-of-the-file-format-used-to-write-the-results)
 
