@@ -1,92 +1,103 @@
 # GitHub Top 30 (2022)
 
+Index
 Introduction
 
-This is a Python script that retrieves the top 30 most starred projects on GitHub and writes the results to a file called top30.md. It uses the requests module to send a GET request to the GitHub API and parse the JSON data from the response.
-Setting Up the Request
+    [Overview of the project](#overview-of-the-project)
+    [Purpose of the tool](#purpose-of-the-tool)
 
-```python
-import requests
+How the Tool Works
 
-# Set the URL for the GitHub API endpoint
-url = "https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc"
+        [Description of how the tool finds the top 30 most starred projects](#description-of-how-the-tool-finds-the-top-30-most-starred-projects)
+        [Explanation of how the results are written to a file](#explanation-of-how-the-results-are-written-to-a-file)
 
-# Send a request to the GitHub API and store the response
-response = requests.get(url)
-```
+How to Use the Tool
 
-## Handling the Response
+    [Clone or download the project to your local machine](#clone-or-download-the-project-to-your-local-machine)
+    [Make sure you have Python and pip installed](#make-sure-you-have-python-and-pip-installed)
+    [Run the play.sh script to install dependencies and run the tool](#run-the-play.sh-script-to-install-dependencies-and-run-the-tool)
 
-    ```python
-    # Check the status code to make sure the request was successful
+Resources
 
-if response.status_code != 200:
-print("Error: Could not retrieve data from GitHub")
-exit(1)
+    [GitHub API documentation](#github-api-documentation)
+    [Python documentation](#python-documentation)
+    [pip documentation](#pip-documentation)
 
-# Parse the JSON data from the response
+Additional Information
 
-data = response.json()
+    [Description of the programming language and modules used in the tool](#description-of-the-programming-language-and-modules-used-in-the-tool)
+    [Explanation of the file format used to write the results](#explanation-of-the-file-format-used-to-write-the-results)
 
-````
+# GitHub Top 30 Project Finder
 
-## Writing the Results to a File
+## Overview of the project
 
-    ```python
-    # Open the top30.md file for writing
-with open("top30.md", "w") as f:
-    # Write the heading for the top 30 list
-    f.write("# Top 30 Most Starred Projects on GitHub\n\n")
+Welcome to the GitHub Top 30 Project Finder! This project provides a tool for finding the top 30 most starred projects on GitHub.
 
-    # Iterate through the first 30 items in the data
-    for i in range(30):
-        # Check if the list has fewer than 30 items
-        if i >= len(data["items"]):
-            break
-        # Get the current repository information
-        repo = data["items"][i]
-        # Write the repository name and number of stars to the file
-        f.write(
-            f"{i+1}. [{repo['name']}]({repo['html_url']}) - {repo['stargazers_count']} stars\n")
+## Purpose of the tool
 
-print("Top 30 most starred projects written to top30.md")
-````
+The purpose of the tool is to provide developers with a way to easily find the most popular projects on GitHub. It uses the GitHub API to send a request for the top 30 most starred projects, and then parses the JSON data from the response to create a list of the top 30 projects. The results are written to a file called top30.md.
 
-# Discover the Latest and Greatest in Developer Tools
+## Description of how the tool finds the top 30 most starred projects
 
-Welcome to our project! Our goal is to provide developers with a one-stop shop for all the latest and greatest tools and resources for their work.
-
-## Become a Better Developer with These Must-Have Resources
-
-We have compiled a list of the most useful and popular resources for developers, including tutorials, libraries, and frameworks. These resources will help you stay up-to-date with the latest technologies and improve your skills as a developer.
-
-## Find Your Next Favorite Open Source Project Here
-
-Our project is also home to a wide variety of open source projects, contributed by developers from all over the world. Browse through our collection and find your next favorite project to contribute to or use in your own work.
-
-## Revolutionize Your Workflow with These Innovative Technologies
-
-In addition to traditional tools and resources, we also showcase some of the most innovative technologies and approaches that are changing the way developers work. Keep an eye out for these game-changing technologies and see how they can help you work more efficiently and effectively.
-
-## Join the Community of Passionate Developers at [Your Website]
-
-We are more than just a resource for tools and projects - we are also a community of passionate developers who love to share knowledge and collaborate. Join us and become a part of our growing community!
-
-## Introduction of play.sh
-
-This script is designed to run the top30.py script and install the necessary dependencies.
-How the Script Works
-
-## The script includes the following steps:
-
-    Make sure that the play.sh and top30.py scripts are executable.
-    Install the requests module using pip.
-    Run the top30.py script.
-
-## How to Run the Script
-
-To run the script, open a terminal or command prompt and navigate to the directory where the script is located. Then, enter the following command:
+The tool uses the requests module to send a GET request to the GitHub API. The API endpoint used in the request is:
 
 ```
+https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc
+```
+
+The requests.get function sends the request and stores the response in a variable. The response.json function is used to parse the JSON data from the response.
+
+## Explanation of how the results are written to a file
+
+The results are written to a file called top30.md in Markdown format using the f string format. The file is opened for writing using the with open('top30.md', 'w') as f: syntax. The f string format is used to write the results to the file. The results are written in the following format:
+
+## How to Use the Tool
+
+### Make sure you have Python and pip installed
+
+To use the tool, you must have Python and pip installed on your local machine. You can check if you have Python installed by running the command:
+
+```
+python --version
+```
+
+If you do not have Python installed, you can download it from the [Python website](https://www.python.org/downloads/).
+
+### Clone or download the project to your local machine
+
+To use the tool, you must first clone or download the project to your local machine. You can do this by clicking the green "Code" button at the top right of the page and then clicking "Download ZIP". You can also clone the project using the command:
+
+```
+git clone https://github.com/miguelgargallo/github-top-30
+```
+
+### Run the play.sh script to install dependencies and run the tool
+
+To run the tool, you must first install the dependencies. You can do this by running the play.sh script. You can do this by running the command:
+
+```bash
 ./play.sh
 ```
+
+## Resources
+
+### GitHub API documentation
+
+You can find the GitHub API documentation [here](https://docs.github.com/en/rest).
+
+### Python documentation
+
+You can find the Python documentation [here](https://docs.python.org/3/).
+
+### pip documentation
+
+You can find the pip documentation [here](https://pip.pypa.io/en/stable/).
+
+## Description of the programming language and modules used in the tool
+
+The tool is written in Python. The requests module is used to send the GET request to the GitHub API. The json module is used to parse the JSON data from the response.
+
+## Explanation of the file format used to write the results
+
+The results are written to a file called top30.md in Markdown format using the f string format. The file is opened for writing using the with open('top30.md', 'w') as f: syntax. The f string format is used to write the results to the file. The results are written in the following format:
